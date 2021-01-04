@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+<title>
+    Kitten adoption
+</title>
+<!--  <link href="css/style.css">  -->
+
+    </head>
+    <body>
+<header>
+    <h1>Adopt a Kitten</h1>
+                     
+    
+</header>
+<main>
+    <h2>  
+
+        Add a Kitten
+    </h2>
+    <form id="addKittenForm">
+        <fieldset>
+            <legend>Basic information </legend>
+                
+                 <label> Name: </label>
+                 <input type="text" name="name">
+                
+                 <label> Breed:</label>
+                 <input type="text" name="breed">
+                 
+                 <label>Coat color:</label>   
+                 <input type = "text" name="color">
+
+                 <label> Intrests:</label>
+                 <input type = "text" name="intrests">
+
+                <span>list intrests seperated by commas.</span>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Placement Information
+            </legend>
+            <p> can be placed with...</p>
+            <label> Kids:</label>
+            <input type="checkbox" name="isGoodWithKids">
+            <label> Cats:</label>
+            <input type="checkbox" name="isGoodWithOtherCats">
+            <label> Dogs:</label>
+            <input type="checkbox" name="isGoodWithDogs">
+
+           
+        </fieldset>
+        <p>
+            <button type="submit"> Submit</button>
+
+        </p>
+        
+          </form>
+          <h2> Kittens Available for adoption:</h2>
+          <div id="kittensProfile"></div>          
+          
+         </main> 
+         <footer></footer>
+         
+         <script src="js/app.js"></script>
+    </body>
+
+</html>
